@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JAFF Consulting B.V.</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600&family=Inter:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <header class="hero">
+      <nav class="nav">
+        <div class="logo">
+          <span class="badge">JAFF</span>
+          <div>
+            <p class="company">JAFF Consulting B.V.</p>
+            <p class="tagline">Regulatory Automation & Advisory</p>
+          </div>
+        </div>
+        <a class="cta" href="mailto:hello@jaff-consulting.com">Contact</a>
+      </nav>
+      <div class="hero-grid">
+        <div>
+          <p class="eyebrow">Sentinel Systems Partner</p>
+          <h1>Compliance products that move as fast as your clients.</h1>
+          <p class="lead">
+            JAFF Consulting builds AI-driven compliance and tender intelligence products
+            for EU organizations. We combine deep regulatory expertise with automation to
+            reduce delivery time from weeks to hours.
+          </p>
+          <div class="hero-cta">
+            <a class="primary" href="mailto:joel@jaff-consulting.com">Book an intro</a>
+            <a class="secondary" href="#solutions">See solutions</a>
+          </div>
+        </div>
+        <div class="card">
+          <p class="card-title">Featured solution</p>
+          <h2>Sentinel Systems</h2>
+          <ul>
+            <li>GDPR Policy Gap Analyzer</li>
+            <li>Tender Opportunity Agent</li>
+            <li>LLM-powered audit automation</li>
+          </ul>
+          <p class="card-foot">Serving EU clients since 2022</p>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section id="solutions" class="section">
+        <h3>Solutions</h3>
+        <div class="grid">
+          <article>
+            <p class="pill">Compliance</p>
+            <h4>Sentinel Systems · GDPR Gap Analyzer</h4>
+            <p>
+              Upload policy libraries, trigger autonomous GDPR scans, and receive
+              amendment-ready reports with audit trails, tier-aware access control, and
+              automated scheduling.
+            </p>
+            <ul class="bullets">
+              <li>Unlimited document processing</li>
+              <li>Role-based access and lifecycle automation</li>
+              <li>Stripe-powered subscription billing</li>
+            </ul>
+          </article>
+          <article>
+            <p class="pill">Growth</p>
+            <h4>Sentinel Systems · Tender Opportunity Agent</h4>
+            <p>
+              Match capabilities to live tenders, generate qualification narratives, and
+              orchestrate follow-up workflows for Dutch SMEs.
+            </p>
+            <ul class="bullets">
+              <li>Full-text tender monitoring across EU sources</li>
+              <li>Capability library versioning and audit logs</li>
+              <li>Priority feed updates with email summaries</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section class="section highlight">
+        <div class="split">
+          <div>
+            <p class="eyebrow">Why JAFF Consulting</p>
+            <h3>Regulatory depth meets product velocity.</h3>
+            <p>
+              We combine a decade of EU compliance work with hands-on engineering to ship
+              reliable automation. Every engagement includes security reviews, SOC-ready
+              logging, and managed onboarding.
+            </p>
+          </div>
+          <ul class="stats">
+            <li>
+              <span>48 hrs</span>
+              <p>Average time to first automated report</p>
+            </li>
+            <li>
+              <span>8+</span>
+              <p>Industries served across the EU</p>
+            </li>
+            <li>
+              <span>100%</span>
+              <p>Data residency in eu-central-1 / eu-west-1</p>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="section contact" id="contact">
+        <div>
+          <p class="eyebrow">Get in touch</p>
+          <h3>Ready to modernize compliance delivery?</h3>
+          <p>
+            Email <a href="mailto:joel@jaff-consulting.com">joel@jaff-consulting.com</a> or call +31 6 19080748.
+            We support retainers, project-based work, and co-building partnerships.
+          </p>
+        </div>
+        <div class="contact-card">
+          <p>JAFF Consulting B.V.</p>
+          <p>Chamber of Commerce 81234567</p>
+          <p>Amsterdam, The Netherlands</p>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>© <span id="year"></span> JAFF Consulting B.V. · All rights reserved.</p>
+    </footer>
+
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
