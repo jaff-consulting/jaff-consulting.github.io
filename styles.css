@@ -208,6 +208,11 @@ article p {
   text-transform: uppercase;
 }
 
+.pill.live {
+  background: rgba(112, 240, 197, 0.2);
+  color: var(--ink);
+}
+
 .bullets {
   margin-top: 1rem;
   list-style: none;
